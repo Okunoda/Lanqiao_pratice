@@ -26,7 +26,6 @@ public class 高精度加法 {
         char[] b = B.toString().toCharArray();
         StringBuilder result = new StringBuilder();
         int carry = 0;
-
         int temp;
         for (int i = a.length - 1; i >= 0; i--) {
             temp = a[i] + b[i] - 48 * 2;
